@@ -1,6 +1,4 @@
-export function SideBar() {
-  // Complete aqui
-  import { Button } from './Button'
+import { Button } from './Button'
 import { GenreResponseProps } from '../types';
 
 import '../styles/sidebar.scss';
@@ -32,5 +30,4 @@ export function SideBar({ genres, selectedGenreId, handleClickButton }: SideBarP
 
     </nav>
   )
-}
 }
